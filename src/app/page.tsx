@@ -15,11 +15,11 @@ export default function Home() {
             <h2 className="">Examples</h2>
           </div>
           <div className="space-y-2">
-            <p className="infoText">"Explain something to me"</p>
+            <p className="infoText">&quot;Explain something to me&quot;</p>
             <p className="infoText">
-              "What is difference between a cat and a dog?"
+              &quot;What is difference between a cat and a dog?&quot;
             </p>
-            <p className="infoText">"What is color of sun?"</p>
+            <p className="infoText">&quot;What is color of sun?&quot;</p>
           </div>
         </div>
         <div>
@@ -28,10 +28,14 @@ export default function Home() {
             <h2 className="">Capabilities</h2>
           </div>
           <div className="space-y-2">
-            <p className="infoText">"Change the ChatGPT model to use"</p>
-            <p className="infoText">"Messages are stored in firebase"</p>
             <p className="infoText">
-              "Hot Toast notifications when ChatGPT is thinking!"
+              &quot;Change the ChatGPT model to use&quot;
+            </p>
+            <p className="infoText">
+              &quot;Messages are stored in firebase&quot;
+            </p>
+            <p className="infoText">
+              &quot;Hot Toast notifications when ChatGPT is thinking!&quot;
             </p>
           </div>
         </div>
@@ -42,13 +46,14 @@ export default function Home() {
           </div>
           <div className="space-y-2">
             <p className="infoText">
-              "May occasionally generate incorrect information"
+              &quot;May occasionally generate incorrect information&quot;
             </p>
             <p className="infoText">
-              "May occasionally produce harmful instructions or biased content"
+              &quot;May occasionally produce harmful instructions or biased
+              content&quot;
             </p>
             <p className="infoText">
-              "Limited knowledge of world and events after 2021"
+              &quot;Limited knowledge of world and events after 2021&quot;
             </p>
           </div>
         </div>
